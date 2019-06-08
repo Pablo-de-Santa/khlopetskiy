@@ -1,19 +1,15 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './style.scss';
 import Header from '../Header';
 import Footer from '../Footer';
-import Home from '../pages/Home';
-
-
-
+import Router from '../../core/Router';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
       <Header />
-      <Home />
+       <Router/>
       <Footer />
     </div>
   );
